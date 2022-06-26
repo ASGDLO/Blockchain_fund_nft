@@ -2,6 +2,8 @@
 
 import { Disclosure, Menu} from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { useAccount } from '@hooks/web3'
+import { useWeb3 } from '@providers/web3'
 import Link from 'next/link'
 import ActiveLink from '../link'
 
@@ -14,7 +16,13 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Navbar() {
+
+  const {account} = useAccount();
+ 
+
+
+  
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -76,6 +84,8 @@ export default function Example() {
                 </button>
 
                 {/* Profile dropdown */}
+                {
+                false ? 
                 <Menu as="div" className="ml-3 relative z-10">
                   <div>
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -104,7 +114,21 @@ export default function Example() {
                 
                   </Menu.Items>
              
-                </Menu>
+                </Menu> : 
+                <button
+                onClick={() => {
+                 
+                  account.connect();
+                  
+                }}
+                type="button"
+                className="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Connect Wallet
+              </button>
+              
+                }
+                
               </div>
             </div>
           </div>

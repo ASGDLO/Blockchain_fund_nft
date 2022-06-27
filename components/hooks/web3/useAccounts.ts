@@ -5,7 +5,7 @@ import useSWR from "swr";
 
 type UseAccountResponse = {
   connect: () => void;
-  isLoading: boolean;
+  isLoading: boolean | undefined;
   isInstalled: boolean;
 }
 
@@ -59,7 +59,7 @@ export const hookFactory: AccountHookFactory = ({provider, ethereum, isLoading})
     ...swr,
     data,
     isValidating,
-    isLoading: isLoading || isValidating,
+    isLoading: isLoading as boolean ,
     isInstalled: ethereum?.isMetaMask || false,
     mutate,
     connect

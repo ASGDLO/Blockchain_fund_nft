@@ -9,5 +9,3 @@ npm run dev
 # or
 yarn dev
 ```
-
-start fund NFT project with me hoon33710@gmail.com

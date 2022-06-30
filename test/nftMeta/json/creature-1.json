@@ -1,0 +1,19 @@
+{
+  "description": "NFT FUND ",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRMcJFo6haC8b9uDvAD46TrjzY4AySdk4UXKaeEFiisev",
+  "name": "Eincode Creature #1",
+  "attributes": [
+    {
+      "trait_type": "attack",
+      "value": "20"
+    },
+    {
+      "trait_type": "health",
+      "value": "100"
+    },
+    {
+      "trait_type": "speed",
+      "value": "30"
+    }
+  ]
+}

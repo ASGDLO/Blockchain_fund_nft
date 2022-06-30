@@ -132,4 +132,42 @@ contract("NftMarket", (accounts) => {
       assert.equal(ownedNfts[0].tokenId, 2, "Nft has a wrong id");
     });
   });
+
+  describe("Token transfer to new owner", () => {
+    before(async () => {
+      await _contract.transferFrom(accounts[0], accounts[1], 2);
+    });
+
+    it("accounts[0] should own 0 tokens", async () => {
+      const ownedNfts = await _contract.getOwnedNfts({ from: accounts[0] });
+      assert.equal(ownedNfts.length, 0, "Invalid length of tokens");
+    });
+
+    it("accounts[1] should own 2 tokens", async () => {
+      const ownedNfts = await _contract.getOwnedNfts({ from: accounts[1] });
+      assert.equal(ownedNfts.length, 2, "Invalid length of tokens");
+    });
+  });
+
+  describe("List an Nft", () => {
+    before(async () => {
+      await _contract.placeNftOnSale(1, _nftPrice, {
+        from: accounts[1],
+        value: _listingPrice,
+      });
+    });
+
+    it("should have two listed items", async () => {
+      const listedNfts = await _contract.getAllNftsOnSale();
+
+      assert.equal(listedNfts.length, 2, "Invalid length of Nfts");
+    });
+
+    it("should set new listing price", async () => {
+      await _contract.setListingPrice(_listingPrice, { from: accounts[0] });
+      const listingPrice = await _contract.listingPrice();
+
+      assert.equal(listingPrice.toString(), _listingPrice, "Invalid Price");
+    });
+  });
 });

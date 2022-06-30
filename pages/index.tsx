@@ -1,39 +1,13 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import type { NextPage } from 'next'
-import { BaseLayout, NftList } from '@ui'
-import nfts from "../content/meta.json"
-import { NftMeta } from '@_types/nft'
-import { useWeb3 } from '@providers/web3'
-
+import type { NextPage } from 'next';
+import { BaseLayout, NftList } from '@ui';
 
 const Home: NextPage = () => {
-  const{ provider, contract} = useWeb3();
-
-  // const getNftInfo = async () => {
-  //   console.log(await contract!.name());
-  //   console.log(await contract!.symbol());
-  // }
-  
-  // if (provider) {
-  //   getNftInfo();
-    
-  // }
-
-  // const getAccounts = async () => {
-  //   const accounts = await provider!.listAccounts();
-  //   console.log(accounts[0]);
-  // }
-
-  // if (provider) {
-  //   getAccounts();
-    
-  // }
 
   return (
     <BaseLayout color={''}>
-      
       <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
         <div className="absolute inset-0">
           <div className="bg-white h-1/3 sm:h-2/3" />
@@ -45,11 +19,8 @@ const Home: NextPage = () => {
               Mint a NFT to get unlimited ownership forever!
             </p>
           </div>
-          <NftList
-            nfts={nfts as NftMeta[]}
-          />
+          <NftList />
         </div>
-        
       </div>
     </BaseLayout>
   )

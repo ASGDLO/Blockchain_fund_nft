@@ -1,14 +1,14 @@
-/* This example requires Tailwind CSS v2.0+ */
+/* eslint-disable @next/next/no-img-element */
 
-import { Disclosure} from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { useAccount, useNetwork } from '@hooks/web3'
-import ActiveLink from '../link'
-import Walletbar from './walletbar'
+import { Disclosure } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { useAccount, useNetwork } from '@hooks/web3';
+import ActiveLink from '../link';
+import Walletbar from './Walletbar';
 
 const navigation = [
-  { name: 'marketplace', href: '/', current: true },
-  { name: 'create', href: '/nft/create', current: false }
+  { name: 'Marketplace', href: '/', current: true },
+  { name: 'Create', href: '/nft/create', current: false }
 ]
 
 function classNames(...classes: string[]) {
@@ -16,16 +16,9 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navbar() {
+  const { account } = useAccount();
+  const { network } = useNetwork();
 
-  const {account} = useAccount();
-  const {network} = useNetwork();
-  
-  console.log(account);
-
-
-
-
-  
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -33,7 +26,7 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
+                {/* Mobile menu butt*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -46,13 +39,8 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
+                    className="hidden lg:block h-10 w-auto"
+                    src="/images/page_logo.png"
                     alt="Workflow"
                   />
                 </div>
@@ -62,42 +50,39 @@ export default function Navbar() {
                       <ActiveLink
                         key={item.name}
                         href={item.href}
-                        activeClass="'bg-gray-900 text-white'"
-                        >
-                      <a
-                      
-                        className= "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                        
-                        aria-current={item.current ? 'page' : undefined}
+                        activeClass="bg-gray-900 text-white"
                       >
-                        {item.name}
-                      </a>
+                        <a
+                          className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                          aria-current={item.current ? 'page' : undefined}
+                        >
+                          {item.name}
+                        </a>
                       </ActiveLink>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <div className="text-gray-300 self-center mr-2">
+                <div className="text-gray-300 self-center mr-2">
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-purple-100 text-purple-800">
                     <svg className="-ml-0.5 mr-1.5 h-2 w-2 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
                       <circle cx={4} cy={4} r={3} />
                     </svg>
-                    {network.isLoading ?
-                    "Loading..." :
-                    account.isInstalled ?
-                    network.data :
-                    "Install web3 wallet..."}
-
+                    { network.isLoading ?
+                      "Loading..." :
+                      account.isInstalled ?
+                      network.data :
+                      "Install Web3 Wallet"
+                    }
                   </span>
                 </div>
-                <Walletbar 
-                isInstalled={account.isInstalled}
-                isLoading={account.isLoading}
-                connect={account.connect}
-                account={account.data}/>
-
-                
+                <Walletbar
+                  isInstalled={account.isInstalled}
+                  isLoading={account.isLoading}
+                  connect={account.connect}
+                  account={account.data}
+                />
               </div>
             </div>
           </div>

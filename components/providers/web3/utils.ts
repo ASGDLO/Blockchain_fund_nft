@@ -1,8 +1,8 @@
 
+import { setupHooks, Web3Hooks } from "@hooks/web3/setupHooks";
 import { MetaMaskInpageProvider } from "@metamask/providers";
 import { Web3Dependencies } from "@_types/hooks";
 import { Contract, ethers, providers } from "ethers";
-import { setupHooks, Web3Hooks } from "@hooks/web3/setupHooks";
 
 declare global {
   interface Window {
@@ -11,15 +11,13 @@ declare global {
 }
 
 type Nullable<T> = {
-  [P in keyof T]: T[P]  | null;
+  [P in keyof T]: T[P] | null;
 }
 
 export type Web3State = {
   isLoading: boolean; // true while loading web3State
   hooks: Web3Hooks;
 } & Nullable<Web3Dependencies>
-
-
 
 
 export const createDefaultState = () => {
@@ -36,11 +34,11 @@ export const createWeb3State = ({
   ethereum, provider, contract, isLoading
 }: Web3Dependencies) => {
   return {
-    ethereum: null,
-    provider: null,
-    contract: null,
-    isLoading: true,
-    hooks: setupHooks({ethereum, provider, contract, isLoading} )
+    ethereum,
+    provider,
+    contract,
+    isLoading,
+    hooks: setupHooks({ethereum, provider, contract, isLoading})
   }
 }
 
@@ -50,8 +48,6 @@ export const loadContract = async (
   name: string,  // NftMarket
   provider: providers.Web3Provider
 ): Promise<Contract> => {
-
-    
   if (!NETWORK_ID) {
     return Promise.reject("Network ID is not defined!");
   }

@@ -1,19 +1,19 @@
 {
-  "description": "NFT FUND ",
-  "image": "https://gateway.pinata.cloud/ipfs/QmRMcJFo6haC8b9uDvAD46TrjzY4AySdk4UXKaeEFiisev",
-  "name": "Eincode Creature #1",
+  "description": "NFT FUND 3",
+  "image": "https://arweave.net/WJQA7FudktZYjS2s08oXmuvliMfiYlzdlpf5BcHLedE?ext=gif",
+  "name": "AAG",
   "attributes": [
     {
-      "trait_type": "attack",
-      "value": "20"
+      "trait_type": "Lock-up period",
+      "value": "2022-09-09"
     },
     {
-      "trait_type": "health",
-      "value": "100"
+      "trait_type": "Start date",
+      "value": "2022-07-09"
     },
     {
-      "trait_type": "speed",
-      "value": "30"
+      "trait_type": "Fee",
+      "value": "3%"
     }
   ]
 }

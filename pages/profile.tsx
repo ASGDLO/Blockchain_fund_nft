@@ -28,7 +28,7 @@ const Profile: NextPage = () => {
   }, [nfts.data])
 
   return (
-    <BaseLayout color={''}>
+    <BaseLayout>
       <div className="h-full flex">
         <div className="flex-1 flex flex-col overflow-hidden">
           <div className="flex-1 flex items-stretch overflow-hidden">

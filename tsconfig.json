@@ -15,14 +15,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths":{
-      "@ui":["components/ui"],
-      "@ui/*":["components/ui/*"],
-      "@providers":["components/providers"],
-      "@providers/*":["components/providers/*"],
-      "@hooks":["components/hooks"],
-      "@hooks/*":["components/hooks/*"],
-      "@_types/*":["types/*"]
+    "paths": {
+      "@ui": ["components/ui"],
+      "@ui/*": ["components/ui/*"],
+      "@providers": ["components/providers"],
+      "@providers/*": ["components/providers/*"],
+      "@hooks": ["components/hooks"],
+      "@hooks/*": ["components/hooks/*"],
+      "@_types/*": ["types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

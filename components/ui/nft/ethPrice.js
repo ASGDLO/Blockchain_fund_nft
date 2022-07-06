@@ -2,7 +2,7 @@ import {
   useEthPrice,
   COURSE_PRICE,
 } from "/home/ethan/blockchain/nft2/nft-marketplace/components/hooks/useEthPrice.js";
-import { Loader } from "/home/ethan/blockchain/nft2/nft-marketplace/components/ui/common";
+import { Loader } from "../components/ui/common";
 import Image from "next/image";
 
 export default function EthRates() {

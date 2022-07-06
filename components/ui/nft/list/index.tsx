@@ -4,7 +4,7 @@
 import { useListedNfts } from "@hooks/web3";
 import { FunctionComponent } from "react";
 import NftItem from "../item";
-import EthRates from "/home/ethan/blockchain/nft2/nft-marketplace/components/ui/nft/ethPrice.js"
+import EthRates from "components/ui/nft/ethPrice.js"
 
 
 

@@ -1,7 +1,4 @@
-import {
-  useEthPrice,
-  COURSE_PRICE,
-} from "/home/ethan/blockchain/nft2/nft-marketplace/components/hooks/useEthPrice.js";
+import { useEthPrice, COURSE_PRICE } from "components/hooks/useEthPrice.js";
 import { Loader } from "../components/ui/common";
 import Image from "next/image";
 

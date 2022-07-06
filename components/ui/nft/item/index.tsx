@@ -3,6 +3,7 @@
 import { FunctionComponent } from "react";
 import { NftMeta, Nft } from "../../../../types/nft";
 
+
 type NftItemProps = {
   item: Nft;
   buyNft: (token: number, value: number) => Promise<void>;

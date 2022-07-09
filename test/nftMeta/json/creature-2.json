@@ -4,15 +4,15 @@
     "name": "Eincode Creature #2",
     "attributes": [
       {
-        "trait_type": "Lock-up period",
+        "trait_type": "attack",
         "value": "60"
       },
       {
-        "trait_type": "Start date",
+        "trait_type": "health",
         "value": "50"
       },
       {
-        "trait_type": "Fee",
+        "trait_type": "speed",
         "value": "70"
       }
     ]

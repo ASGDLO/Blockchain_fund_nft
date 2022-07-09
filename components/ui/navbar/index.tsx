@@ -6,10 +6,8 @@ import { useAccount, useNetwork } from '@hooks/web3';
 import ActiveLink from '../link';
 import Walletbar from './Walletbar';
 
-
-
 const navigation = [
-  { name: 'Marketplace', href: '/market', current: true },
+  { name: 'Marketplace', href: '/', current: true },
   { name: 'Create', href: '/nft/create', current: false },
   { name: 'About', href: 'https://start-website-next.vercel.app/', current: false }
 ]
@@ -43,7 +41,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="hidden lg:block h-10 w-auto"
-                    src="../images/page_logo.png"
+                    src="/images/page_logo.png"
                     alt="Workflow"
                   />
                 </div>

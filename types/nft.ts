@@ -1,5 +1,5 @@
 
-export type Trait = "Lock-up period" | "Start date" | "Fee";
+export type Trait = "attack" | "health" | "speed";
 
 export type NftAttribute = {
   trait_type: Trait;

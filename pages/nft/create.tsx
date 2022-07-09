@@ -26,9 +26,9 @@ const NftCreate: NextPage = () => {
     description: "",
     image: "",
     attributes: [
-      {trait_type: "Lock-up period", value: "0"},
-      {trait_type: "Start date", value: "0"},
-      {trait_type: "Fee", value: "0"},
+      {trait_type: "attack", value: "0"},
+      {trait_type: "health", value: "0"},
+      {trait_type: "speed", value: "0"},
     ]
   });
 

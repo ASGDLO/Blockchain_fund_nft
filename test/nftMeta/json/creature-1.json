@@ -1,19 +1,19 @@
 {
-  "description": "NFT FUND 3",
-  "image": "https://arweave.net/WJQA7FudktZYjS2s08oXmuvliMfiYlzdlpf5BcHLedE?ext=gif",
-  "name": "AAG",
+  "description": "Fierce violet creature. Very durable and tanky.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmbiE5ZdZb97C7WuCmbSQ6o7yHn4FRroojwmGDLtevPHC7",
+  "name": "Eincode Creature #1",
   "attributes": [
     {
-      "trait_type": "Lock-up period",
-      "value": "2022-09-09"
+      "trait_type": "attack",
+      "value": "20"
     },
     {
-      "trait_type": "Start date",
-      "value": "2022-07-09"
+      "trait_type": "health",
+      "value": "100"
     },
     {
-      "trait_type": "Fee",
-      "value": "3%"
+      "trait_type": "speed",
+      "value": "30"
     }
   ]
 }

@@ -10,7 +10,9 @@ import Walletbar from './Walletbar';
 
 const navigation = [
   { name: 'Marketplace', href: '/', current: true },
-  { name: 'Create', href: '/nft/create', current: false }
+  { name: 'Create', href: '/nft/create', current: false },
+  { name: 'About', href: 'https://start-website-next.vercel.app/', current: false }
+
 ]
 
 function classNames(...classes: string[]) {

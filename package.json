@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    
+    
     "genContractType": "abi-types-generator './public/contracts/NftMarket.json' --output='./types' --name=nftMarketContract --provider=ethers_v5"
   },
   "dependencies": {
@@ -19,7 +21,7 @@
     "@tsndr/cloudflare-worker-jwt": "^2.0.1",
     "antd": "^4.19.5",
     "axios": "^0.26.1",
- 
+  
     "ethereumjs-util": "^7.1.4",
     "ethers": "^5.6.2",
     "form-data": "^4.0.0",
@@ -55,5 +57,9 @@
   },
   "resolutions": {
     "@mui/utils": "~5.1.0"
+   
+  },
+  "peerDependencies": {
+    "bizcharts": "^4.1.15"
   }
 }

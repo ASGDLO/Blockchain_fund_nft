@@ -1,0 +1,11 @@
+export declare const BASE_EVENT_NAMES: string[];
+export declare const pickEventName: (props: any) => [string, string][];
+export declare const DRAG_EVENT_NAMES: string[];
+export declare const MOBILE_EVENT_NAMES: string[];
+export declare const LIFE_CIRCLE_NAMES: string[];
+export declare const LEGEND_EVENT_TARGETS: string[];
+export declare const GEOM_NAME: string[];
+export declare const LEGEND_EVENT: string[];
+export declare const AXIS_EVENT_TARGET: string[];
+export declare const ANNOTATION_EVENT_TARGET: string[];
+export declare const TOOLTIP_EVENT: string[];

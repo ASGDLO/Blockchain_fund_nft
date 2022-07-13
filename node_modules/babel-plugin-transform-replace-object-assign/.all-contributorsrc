@@ -1,0 +1,51 @@
+{
+  "projectName": "babel-plugin-transform-replace-object-assign",
+  "projectOwner": "newoga",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "newoga",
+      "name": "Neil Gabbadon",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/344018?v=4",
+      "profile": "https://github.com/newoga",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "niksy",
+      "name": "Ivan Nikolić",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/389286?v=4",
+      "profile": "http://ivannikolic.com",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "ljharb",
+      "name": "Jordan Harband",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45469?v=4",
+      "profile": "https://twitter.com/ljharb",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "jaydenseric",
+      "name": "Jayden Seric",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1754873?v=4",
+      "profile": "https://jaydenseric.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ]
+}

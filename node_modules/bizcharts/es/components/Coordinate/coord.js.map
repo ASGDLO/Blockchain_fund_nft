@@ -1,0 +1,1 @@
+{"version":3,"file":"coord.js","sourceRoot":"","sources":["../../../src/components/Coordinate/coord.tsx"],"names":[],"mappings":";;;;;;;;;;;AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,IAAI,MAAM,SAAS,CAAC;AAC3B,OAAO,UAAU,MAAM,SAAS,CAAC;AAEjC,MAAM,CAAC,OAAO,UAAU,KAAK,CAAC,KAAK;IACjC,IAAI,CAAC,KAAK,EAAE,8EAA8E,CAAC,CAAC;IAC5F,OAAO,oBAAC,UAAU,eAAK,KAAK,EAAI,CAAA;AAClC,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"splitBySeparator.js","sourceRoot":"","sources":["../../../src/utils/data-transform/splitBySeparator.ts"],"names":[],"mappings":"AAAA,gBAAe,UAAC,GAAG,EAAE,SAAa;IAAb,0BAAA,EAAA,eAAa;IAChC,IAAI,OAAO,GAAG,KAAK,QAAQ,EAAE;QAC3B,OAAO,GAAG,CAAC,QAAQ,EAAE,CAAC,OAAO,CAAC,uBAAuB,EAAE,SAAS,CAAC,CAAC;KACnE;IACD,OAAO,GAAG,CAAC;AACb,CAAC,EAAA"}

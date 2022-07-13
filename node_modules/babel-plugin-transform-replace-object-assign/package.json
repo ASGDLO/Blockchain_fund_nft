@@ -1,0 +1,43 @@
+{
+  "name": "babel-plugin-transform-replace-object-assign",
+  "version": "2.0.0",
+  "description": "Allows you to provide custom implementation of Object.assign in babel builds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newoga/babel-plugin-transform-replace-object-assign"
+  },
+  "author": "Neil Gabbadon <neil.gabbadon@gmail.com> (https://github.com/newoga)",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "build": "babel src --out-dir lib",
+    "bump-changelog": "./bump-changelog",
+    "postversion": "git push && git push --tags",
+    "prebuild": "npm test && rm -rf lib/",
+    "prepublish": "npm run build",
+    "test": "istanbul test _mocha",
+    "version": "npm run build && npm run bump-changelog && git add -A lib CHANGELOG.md"
+  },
+  "keywords": [
+    "assign",
+    "babel",
+    "babel-plugin"
+  ],
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.0.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^5.2.0"
+  }
+}

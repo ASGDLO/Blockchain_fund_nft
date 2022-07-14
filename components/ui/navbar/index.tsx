@@ -11,6 +11,7 @@ const navigation = [
   { name: 'Create', href: '/nft/create', current: false },
   { name: 'About', href: 'https://start-website-next.vercel.app/', current: false },
   { name: 'performance', href: '/nft/performance', current: false },
+  { name: 'profile', href: 'profile', current: false },
 ]
 
 function classNames(...classes: string[]) {

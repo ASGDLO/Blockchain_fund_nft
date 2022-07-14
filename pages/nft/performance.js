@@ -86,7 +86,7 @@ export default function Home() {
   // }
 
   if(!data || !barChartData) {
-    return <div>Loading...</div>
+    return 
   }
 
   return (

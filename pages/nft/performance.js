@@ -123,10 +123,10 @@ export default function Home() {
     
   
     
-      <h3>📈 Order count timeseries</h3>
+      <h3>📈 Fund Performance</h3>
       <LineChart data={data}/>
 
-      <h3>📊 Order count by Suppliers</h3>
+      <h3>📊 NFT sales number</h3>
       <BarChart 
         data={barChartData} 
         pivotConfig={{

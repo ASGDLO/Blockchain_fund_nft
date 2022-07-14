@@ -25,6 +25,6 @@
       "@_types/*": ["types/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jwt33.js", "pages/index.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jwt33.js", "pages/index.js", "pages/nft/performance.js", "pages/nft/performance.js"],
   "exclude": ["node_modules"]
 }

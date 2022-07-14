@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import cubejs from "@cubejs-client/core";
-import Flatpickr from "react-flatpickr";
+// import Flatpickr from "react-flatpickr";
 import LineChart from '../../components/chart/LineChart'
 import { stackedChartData } from '../../util';
 import Link from 'next/link';
@@ -10,18 +10,22 @@ import TableRenderer from '../../components/chart/Table';
 
 import { BaseLayout, NftList } from "@ui";
 
-// const CUBE_API_SECRET = process.env.NEXT_PUBLIC_CUBEJS_TOKEN;
-// const jwt = require('jsonwebtoken');
-// export const cubejsToken = jwt.sign(
-// 	{}, CUBE_API_SECRET, { expiresIn: '30d' }
-// );
+import React, { useRef } from "react";
+import Flatpickr from "react-flatpickr";
+
+import "flatpickr/dist/flatpickr.css";
 
 const cubejsApi = cubejs(
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc2OTEyMTB9.diuiQd1kYCiCpTWG1TtqNXv67PoHB6bsRa-57ZMUqKM',
   { apiUrl: 'https://rose-gerbil.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
 );
 
-export default function Performance() {
+export default function Home() {
+  // const rootElement = document.getElementById("root");
+  // ReactDOM.render(<App />, rootElement);
+
+  // const fp = useRef(null);
+  const fp = useRef(null);
 
   const [data, setData] = useState(null);
   const [barChartData, setBarChartData] = useState(null);
@@ -77,25 +81,20 @@ export default function Performance() {
       })
   }
 
-  if(error) {
-    return <div>Error: {error.message}</div>
-  }
+  // if(error) {
+  //   return <div>Error: {error.message}</div>
+  // }
 
   if(!data || !barChartData) {
     return <div>Loading...</div>
   }
 
   return (
-    
+    <BaseLayout>
     <div className={styles.container}>
       
-      <Link href={`/ssr-example?startDate=2017-08-02&endDate=2018-01-31`}>
-        <a className={styles.link}>View SSR Example</a>
-      </Link>
-
-      <h1>Client Rendered Charts Example</h1>
-      <h5>🗓️ Select a date range</h5>
-      <Flatpickr
+      
+        <Flatpickr 
         options={{ 
           allowInput: true, 
           mode: "range", 
@@ -110,8 +109,20 @@ export default function Performance() {
               endDate: selectedDates[1]
             })
           }
-        }}
-      />
+        }}  />
+        
+        <button
+          type="button"
+          onClick={() => {
+            if (!fp?.current?.flatpickr) return;
+            fp.current.flatpickr.clear();
+          }}
+        >
+          Clear
+        </button>
+    
+  
+    
       <h3>📈 Order count timeseries</h3>
       <LineChart data={data}/>
 
@@ -126,10 +137,11 @@ export default function Performance() {
         }}
       />
 
-      <h3>📋 Order Table</h3>
-      <TableRenderer data={barChartData} />
+      {/* <h3>📋 Order Table</h3> */}
+      {/* <TableRenderer 
+      data={barChartData} /> */}
 
     </div>
-    
+    </BaseLayout>
   )
 }

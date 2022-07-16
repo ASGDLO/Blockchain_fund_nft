@@ -15,9 +15,14 @@ import Flatpickr from "react-flatpickr";
 
 import "flatpickr/dist/flatpickr.css";
 
+// const cubejsApi = cubejs(
+//   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc2OTEyMTB9.diuiQd1kYCiCpTWG1TtqNXv67PoHB6bsRa-57ZMUqKM',
+//   { apiUrl: 'https://rose-gerbil.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
+// );
+
 const cubejsApi = cubejs(
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc2OTEyMTB9.diuiQd1kYCiCpTWG1TtqNXv67PoHB6bsRa-57ZMUqKM',
-  { apiUrl: 'https://rose-gerbil.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc5NTIwOTB9.hAvWceGKxXYsr0rzO77syA4fgZfkXkqsbknMWEU4xDY',
+  { apiUrl: 'https://expected-lion.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
 );
 
 export default function Home() {
@@ -32,7 +37,7 @@ export default function Home() {
   const [error, setError] = useState (null);
   const [dateRange, setDateRange] = useState({
     startDate: '2017-08-02',
-    endDate: '2020-12-12'
+    endDate: '2022-07-10'
   });
 
   useEffect(() => {
@@ -42,10 +47,10 @@ export default function Home() {
   const loadData = () => {
     cubejsApi
       .load({
-        measures: ["Orders.count"],
+        measures: ["Mytable.number"],
         timeDimensions: [
           {
-            dimension: "Orders.createdAt",
+            dimension: "Mytable.createdAt",
             granularity: `day`,
             dateRange: [dateRange.startDate, dateRange.endDate]
           }
@@ -60,17 +65,17 @@ export default function Home() {
 
     cubejsApi
       .load({
-        measures: ["Orders.count"],
+        measures: ["Mytable.number"],
         timeDimensions: [
           {
-            dimension: "Orders.createdAt",
+            dimension: "Mytable.createdAt",
             dateRange: [dateRange.startDate, dateRange.endDate]
           }
         ],
         order: {
-          "Orders.count": "desc"
+          "Mytable.number": "desc"
         },
-        dimensions: ["Suppliers.company"],
+        dimensions: ["Mytable.createdAt"],
         "filters": []
       })
       .then((resultSet) => {
@@ -99,7 +104,7 @@ export default function Home() {
           allowInput: true, 
           mode: "range", 
           minDate: new Date('2016-12-12'),
-          maxDate: new Date('2020-12-12') 
+          maxDate: new Date('2022-07-10') 
         }}
         value={[dateRange.startDate, dateRange.endDate]}
         onChange={(selectedDates) => {
@@ -123,6 +128,9 @@ export default function Home() {
     
   
     
+      <h3>📈 Bitcoin Price</h3>
+      <LineChart data={data}/>
+
       <h3>📈 Fund Performance</h3>
       <LineChart data={data}/>
 
@@ -130,15 +138,15 @@ export default function Home() {
       <BarChart 
         data={barChartData} 
         pivotConfig={{
-          x: ["Suppliers.company"],
+          x: ["Mytable.createdAt"],
           y: ["measures"],
           fillMissingDates: true,
           joinDateRange: false
         }}
       />
 
-      {/* <h3>📋 Order Table</h3> */}
-      {/* <TableRenderer 
+      {/* <h3>📋 Order Table</h3>
+      <TableRenderer 
       data={barChartData} /> */}
 
     </div>

@@ -20,10 +20,10 @@ import "flatpickr/dist/flatpickr.css";
 //   { apiUrl: 'https://rose-gerbil.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
 // );
 
-const cubejsApi = cubejs(
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc5NTIwOTB9.hAvWceGKxXYsr0rzO77syA4fgZfkXkqsbknMWEU4xDY',
-  { apiUrl: 'https://expected-lion.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' }
-);
+const cubejsApi = cubejs( 
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTgwMjcyNDF9.700039kdJftSQR2pR2_phIh4uUG5kUGGT2GT3307nJw', 
+  { apiUrl: 'https://gross-falcon.aws-us-west-2.cubecloudapp.dev/cubejs-api/v1' } 
+); 
 
 export default function Home() {
   // const rootElement = document.getElementById("root");
@@ -31,8 +31,10 @@ export default function Home() {
 
   // const fp = useRef(null);
   const fp = useRef(null);
-
+  
+  
   const [data, setData] = useState(null);
+  const [data2, setData2] = useState(null);
   const [barChartData, setBarChartData] = useState(null);
   const [error, setError] = useState (null);
   const [dateRange, setDateRange] = useState({
@@ -45,12 +47,13 @@ export default function Home() {
   }, [dateRange]);
   
   const loadData = () => {
+
     cubejsApi
       .load({
-        measures: ["Mytable.number"],
+        measures: ["Bitcoin.number"],
         timeDimensions: [
           {
-            dimension: "Mytable.createdAt",
+            dimension: "Bitcoin.createdAt",
             granularity: `day`,
             dateRange: [dateRange.startDate, dateRange.endDate]
           }
@@ -65,17 +68,35 @@ export default function Home() {
 
     cubejsApi
       .load({
-        measures: ["Mytable.number"],
+        measures: ["Performance.number"],
         timeDimensions: [
           {
-            dimension: "Mytable.createdAt",
+            dimension: "Performance.createdAt",
+            granularity: `day`,
+            dateRange: [dateRange.startDate, dateRange.endDate]
+          }
+        ]
+      })
+      .then((resultSet) => {
+        setData2(stackedChartData(resultSet));
+      })
+      .catch((error) => {
+        setError(error);
+      })
+
+    cubejsApi
+      .load({
+        measures: ["Bitcoin.number"],
+        timeDimensions: [
+          {
+            dimension: "Bitcoin.createdAt",
             dateRange: [dateRange.startDate, dateRange.endDate]
           }
         ],
         order: {
-          "Mytable.number": "desc"
+          "Bitcoin.number": "desc"
         },
-        dimensions: ["Mytable.createdAt"],
+        dimensions: ["Bitcoin.createdAt"],
         "filters": []
       })
       .then((resultSet) => {
@@ -132,13 +153,13 @@ export default function Home() {
       <LineChart data={data}/>
 
       <h3>📈 Fund Performance</h3>
-      <LineChart data={data}/>
+      <LineChart data={data2}/>
 
       <h3>📊 NFT sales number</h3>
       <BarChart 
         data={barChartData} 
         pivotConfig={{
-          x: ["Mytable.createdAt"],
+          x: ["Bitcoin.createdAt"],
           y: ["measures"],
           fillMissingDates: true,
           joinDateRange: false

@@ -152,7 +152,7 @@ export default function Home() {
       <h3>📈 Bitcoin Price</h3>
       <LineChart data={data}/>
 
-      <h3>📈 Fund Performance</h3>
+      <h3>📈 Fund Performance %</h3>
       <LineChart data={data2}/>
 
       <h3>📊 NFT sales number</h3>

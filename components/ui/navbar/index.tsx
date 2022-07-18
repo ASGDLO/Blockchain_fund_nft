@@ -12,6 +12,7 @@ const navigation = [
   { name: 'About', href: 'https://start-website-next.vercel.app/', current: false },
   { name: 'performance', href: '/nft/performance', current: false },
   { name: 'profile', href: '/profile', current: false },
+  { name: 'pdf', href: '/nft/pdf', current: false },
 ]
 
 function classNames(...classes: string[]) {

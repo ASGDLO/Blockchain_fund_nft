@@ -39,7 +39,7 @@ export default function Home() {
   const [error, setError] = useState (null);
   const [dateRange, setDateRange] = useState({
     startDate: '2017-08-02',
-    endDate: '2022-07-10'
+    endDate: '2022-07-17'
   });
 
   useEffect(() => {
@@ -125,7 +125,7 @@ export default function Home() {
           allowInput: true, 
           mode: "range", 
           minDate: new Date('2016-12-12'),
-          maxDate: new Date('2022-07-10') 
+          maxDate: new Date('2022-07-17') 
         }}
         value={[dateRange.startDate, dateRange.endDate]}
         onChange={(selectedDates) => {

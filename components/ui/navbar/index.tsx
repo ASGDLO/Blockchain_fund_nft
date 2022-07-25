@@ -9,7 +9,7 @@ import Walletbar from './Walletbar';
 const navigation = [
   { name: 'Marketplace', href: '/', current: true },
   { name: 'Create', href: '/nft/create', current: false },
-  { name: 'About', href: 'https://start-website-next.vercel.app/', current: false },
+  { name: 'About', href: 'https://www.wealthfront.com/', current: false },
   { name: 'performance', href: '/nft/performance', current: false },
   { name: 'profile', href: '/profile', current: false },
   { name: 'pdf', href: '/nft/pdf', current: false },

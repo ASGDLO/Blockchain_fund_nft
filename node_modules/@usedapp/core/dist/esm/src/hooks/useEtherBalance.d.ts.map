@@ -1,0 +1,1 @@
+{"version":3,"file":"useEtherBalance.d.ts","sourceRoot":"","sources":["../../../../src/hooks/useEtherBalance.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,KAAK,EAAE,MAAM,gBAAgB,CAAA;AACtC,OAAO,EAAE,SAAS,EAAE,MAAM,QAAQ,CAAA;AAClC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAA;AAI3D;;;;;;;;;;;;;GAaG;AACH,wBAAgB,eAAe,CAAC,OAAO,EAAE,MAAM,GAAG,KAAK,EAAE,WAAW,GAAE,WAAgB,GAAG,SAAS,GAAG,SAAS,CAa7G"}

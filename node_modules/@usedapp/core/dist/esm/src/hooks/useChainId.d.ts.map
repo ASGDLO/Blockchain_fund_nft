@@ -1,0 +1,1 @@
+{"version":3,"file":"useChainId.d.ts","sourceRoot":"","sources":["../../../../src/hooks/useChainId.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAA;AAI3D,MAAM,WAAW,iBAAiB;IAChC,WAAW,CAAC,EAAE,WAAW,CAAA;CAC1B;AAED;;;GAGG;AACH,wBAAgB,UAAU,CAAC,IAAI,GAAE,iBAAsB,sBAItD"}

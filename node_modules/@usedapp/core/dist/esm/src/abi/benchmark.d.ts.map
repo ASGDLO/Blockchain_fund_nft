@@ -1,0 +1,1 @@
+{"version":3,"file":"benchmark.d.ts","sourceRoot":"","sources":["../../../../src/abi/benchmark.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,WAAW;IAC1B,UAAU,EAAE,MAAM,CAAA;IAClB,WAAW,EAAE,MAAM,CAAA;IACnB,UAAU,EAAE,MAAM,CAAA;CACnB;AAED,wBAAgB,KAAK,CAAC,IAAI,EAAE,MAAM,IAAI,GAAG,WAAW,CAgBnD;AAED,wBAAgB,WAAW,CAAC,MAAM,EAAE,WAAW,EAAE,KAAK,CAAC,EAAE,MAAM,QAM9D"}

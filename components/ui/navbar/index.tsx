@@ -11,8 +11,7 @@ const navigation = [
   { name: 'Create', href: '/nft/create', current: false },
   { name: 'About', href: 'http://43.200.97.220:3000/login2', current: false },
   { name: 'performance', href: '/nft/performance', current: false },
-  { name: 'profile', href: '/profile', current: false },
-  { name: 'pdf', href: '/nft/pdf', current: false },
+  { name: 'profile', href: '/profile', current: false }
 ]
 
 function classNames(...classes: string[]) {

@@ -5,7 +5,7 @@
 </p>
 
 
-  <p align="center">Resolved Fund purchase process and vertification, with NFT</p>
+  <p align="center">Solve the fund purchase process and verification using NFT</p>
  <p align="center"> 
 <a href="https://discord.gg/BZdbEKbgDj" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
   <a href="https://paypal.me/hoon33710?country.x=KR&locale.x=ko_KR" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
@@ -18,9 +18,8 @@
 
 ## Description
 
-Finding a profitable algorithm is too difficult. However, Renaissance Technologies knows how to make money in derivative markets. I believe there is alpha in the futures market and crypto is the best platform we can trade on.</p>
-
-We use backtesting, paper trading, live trading, trade signal visualization, find the best parameter with Machine Learning.
+What is the most efficient way to sell crypto funds?
+There are too many challenges to selling funds to people. Why not use NFTs and APIs to solve this problem?</p>
 
 ## Philosophy
 

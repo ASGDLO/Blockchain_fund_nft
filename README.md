@@ -37,13 +37,14 @@ Having traded over $5 million dollar in 6 years, I was trying to figure out the 
 
 For questions and support please use the official [Discord channel](https://discord.com/invite/BZdbEKbgDj). The issue list of this repo is **exclusively** for bug reports and feature requests.
 
-#### how is it work
+#### how is it work 
+##PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?usp=sharing
 
 <table style="text-align:center;"><tr><td>
 
 <a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170488847249469/image.png?width=838&height=630" width="200" valign="middle" /></a></td>
 <td> 
-<a  target="_blank"><img src="https://cdn.discordapp.com/attachments/794857815709450242/1051337356180983949/image.png" width="140" valign="middle" /></a></td>
+<a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170545923326023/image.png?width=850&height=630" width="140" valign="middle" /></a></td>
 <td>
 <a target="_blank"><img src="https://media.discordapp.net/attachments/794857815709450242/1051338274519658526/image.png?width=1378&height=467" width="200" valign="middle" /></a></td>
 <td>

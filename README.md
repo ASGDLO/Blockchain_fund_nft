@@ -29,9 +29,9 @@ Having traded over $5 million dollar in 6 years, I was trying to figure out the 
 
 ## Getting started
 
-* git clone https://github.com/ASGDLO/Quantitative-Binance-Futures.git
-* ./setup.sh -i
-* source ./.env/bin/activate
+* git clone https://github.com/ASGDLO/Blockchain_fund_nft.git
+* yarn install 
+
 
 ## Questions
 

@@ -46,11 +46,11 @@ For questions and support please use the official [Discord channel](https://disc
 <td> 
 <a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170545923326023/image.png?width=850&height=630" width="140" valign="middle" /></a></td>
 <td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/794857815709450242/1051338274519658526/image.png?width=1378&height=467" width="200" valign="middle" /></a></td>
+<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170581667192872/image.png?width=850&height=630" width="200" valign="middle" /></a></td>
 <td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/794857815709450242/1052580607978385488/image.png?width=624&height=630" width="185" valign="middle" /></a></td>
+<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170681445503046/image.png?width=870&height=630" width="185" valign="middle" /></a></td>
 <td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1016191694028410981/1058914690530562098/image.png?width=766&height=630" width="185" valign="middle" /></a></td>
+<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170727196962867/image.png?width=870&height=630" width="185" valign="middle" /></a></td>
 </table>
 
 #### backtesitng sample

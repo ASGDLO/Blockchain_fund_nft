@@ -78,7 +78,7 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 <a href="https://nautilustrader.io/" target="_blank"><img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" width="140" valign="middle" /></a></td>
 <td align="center" valign="middle">
 <a href="https://scikit-optimize.github.io/stable/" target="_blank"><img src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png" width="71" valign="middle" /></a></td><td align="center" valign="middle">
-<a href="https://plotly.com/" target="_blank"><img src="" width="100" valign="middle" /></a> </td><td align="center" valign="middle">
+<a href="https://plotly.com/" target="_blank"><img src="https://assets-global.website-files.com/6364e65656ab107e465325d2/6381641b6a60932fb3c3c2d9_crsLQ2lVok-0X37hZ_7RSl62vTm5GRP0Ws4xyPt4E5I.jpeg" width="100" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://jupyter.org/" target="_blank"><img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" width="75" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/ccxt/ccxt" target="_blank"><img src="https://user-images.githubusercontent.com/1294454/112665445-2008ec80-8e6c-11eb-9647-623a347ddade.png" width="120" valign="middle" /></a></td></tr><tr><td align="center" valign="middle">
 <a href="https://docs.tokensets.com/" target="_blank"><img src="https://images.squarespace-cdn.com/content/v1/5dc59d3f6301105b02894f5f/1580228735630-4AH0H4LTN0UOEJ4UIRIG/Aave+Ghost+banner.png" width="120" valign="middle" /></a> </td><td align="center" valign="middle">

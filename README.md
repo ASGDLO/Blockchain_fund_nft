@@ -57,13 +57,6 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 <a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170829747691550/image.png?width=895&height=630" width="185" valign="middle" /></a></td>
 </table>
 
-#### backtesitng sample
-<table style="text-align:center;"><tr>
-  <td><a  target="_blank"><img src="https://media.discordapp.net/attachments/794921170931154967/1052924664558653500/image.png" width="100" valign="middle" /></a></td>
-  <td><a target="_blank"><img src="https://media.discordapp.net/attachments/794921170931154967/1052924242066423858/image.png" width="100" valign="middle" /></a></td>
-
-</tr></table>
-
 #### Related Project
 <table style="text-align:center;"><tr>
   <td><a href="https://github.com/Fractal-crypto/Blockchain_fund_nft" target="_blank"><img src="https://avatars.githubusercontent.com/u/96429375?s=200&v=4" width="100" valign="middle" /></a></td>

@@ -68,8 +68,8 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 #### Tool
 
 <table><tr><td align="center" valign="middle">
-<a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://www.sqlalchemy.org/img/sqla_logo.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
-<a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://avatars.githubusercontent.com/u/52467369?s=200&v=4" width="190" valign="middle" /></a> </td><td align="center" valign="middle">
+<a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://www.netnode.ch/sites/default/files/2022-08/nextjs.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
+<a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://avatars.githubusercontent.com/u/52467369?s=200&v=4" width="110" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/tiangolo/fastapi" target="_blank"><img src="https://camo.githubusercontent.com/86d9ca3437f5034da052cf0fd398299292aab0e4479b58c20f2fc37dd8ccbe05/68747470733a2f2f666173746170692e7469616e676f6c6f2e636f6d2f696d672f6c6f676f2d6d617267696e2f6c6f676f2d7465616c2e706e67" width="172" valign="middle" /></a>  </td><td align="center" valign="middle">
 <a href="https://github.com/encode/uvicorn" target="_blank"><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
   <a href="https://pyjwt.readthedocs.io/en/stable/faq.html" target="_blank"><img src="https://10015.io/assets/tools/list/jwt-encoder-decoder.svg" width="90" valign="middle" /></a> </td><td align="center" valign="middle">

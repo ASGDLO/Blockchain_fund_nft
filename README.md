@@ -62,7 +62,7 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
   <td><a href="https://github.com/Fractal-crypto/Blockchain_fund_nft" target="_blank"><img src="https://avatars.githubusercontent.com/u/96429375?s=200&v=4" width="100" valign="middle" /></a></td>
   <td><a href="https://github.com/freqtrade/freqtrade" target="_blank"><img src="https://www.freqtrade.io/en/stable/assets/freqtrade_poweredby.svg" width="200" valign="middle" /></a></td>
 <td>
-<a href="https://github.com/Pictoon-siliconvalley-Bteam/Pictoon-project_Main" target="_blank"><img src="https://avatars.githubusercontent.com/u/96712655?s=200&v=4" width="180" valign="middle" /></a></td>
+<a href="https://github.com/Pictoon-siliconvalley-Bteam/Pictoon-project_Main" target="_blank"><img src="https://avatars.githubusercontent.com/u/96712655?s=200&v=4" width="110" valign="middle" /></a></td>
 </tr></table>
 
 #### Tool

@@ -1,7 +1,7 @@
 # AAG Blockchain NFT Fund 
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://cdn.discordapp.com/icons/875346679568691250/5b6795312241b769b6085a4507be94d4.webp?size=96" width="120" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://media.discordapp.net/attachments/794921170931154967/1062919610707488848/image.png" width="120" alt="Nest Logo" /></a>
 </p>
 
 

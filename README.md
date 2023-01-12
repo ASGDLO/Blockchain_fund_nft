@@ -68,8 +68,8 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 #### Tool
 
 <table><tr><td align="center" valign="middle">
-<a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://blog.logrocket.com/wp-content/uploads/2020/11/Nextjs-logo.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
-<a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://1.bp.blogspot.com/-TQhkUPlWydY/YK7gRwZ__iI/AAAAAAAACHk/LWlOYayNvXQHiAsk9Ad9iN3e6k_0cGuSgCLcBGAsYHQ/s691/talib.png" width="190" valign="middle" /></a> </td><td align="center" valign="middle">
+<a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://www.sqlalchemy.org/img/sqla_logo.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
+<a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://avatars.githubusercontent.com/u/52467369?s=200&v=4" width="190" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/tiangolo/fastapi" target="_blank"><img src="https://camo.githubusercontent.com/86d9ca3437f5034da052cf0fd398299292aab0e4479b58c20f2fc37dd8ccbe05/68747470733a2f2f666173746170692e7469616e676f6c6f2e636f6d2f696d672f6c6f676f2d6d617267696e2f6c6f676f2d7465616c2e706e67" width="172" valign="middle" /></a>  </td><td align="center" valign="middle">
 <a href="https://github.com/encode/uvicorn" target="_blank"><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
   <a href="https://pyjwt.readthedocs.io/en/stable/faq.html" target="_blank"><img src="https://10015.io/assets/tools/list/jwt-encoder-decoder.svg" width="90" valign="middle" /></a> </td><td align="center" valign="middle">
@@ -92,3 +92,12 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 
 * Author - [ASGDLO](https://github.com/ASGDLO)
 * Twitter - [NFT](https://twitter.com/EthanCo76960550)
+
+
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170488847249469/image.png?width=838&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170545923326023/image.png?width=850&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170581667192872/image.png?width=850&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170681445503046/image.png?width=870&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170727196962867/image.png?width=870&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170777759301702/image.png?width=870&height=630)
+![alt text](https://media.discordapp.net/attachments/1034436378857062532/1057170829747691550/image.png?width=895&height=630)

@@ -70,8 +70,8 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 <table><tr><td align="center" valign="middle">
 <a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://www.netnode.ch/sites/default/files/2022-08/nextjs.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
 <a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://avatars.githubusercontent.com/u/52467369?s=200&v=4" width="110" valign="middle" /></a> </td><td align="center" valign="middle">
-<a href="https://github.com/tiangolo/fastapi" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" width="172" valign="middle" /></a>  </td><td align="center" valign="middle">
-<a href="https://github.com/encode/uvicorn" target="_blank"><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
+<a href="https://github.com/tiangolo/fastapi" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" width="112" valign="middle" /></a>  </td><td align="center" valign="middle">
+<a href="https://github.com/encode/uvicorn" target="_blank"><img src="https://moonbeam.network/wp-content/uploads/2021/06/openzeppelin-500.png" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
   <a href="https://pyjwt.readthedocs.io/en/stable/faq.html" target="_blank"><img src="https://10015.io/assets/tools/list/jwt-encoder-decoder.svg" width="90" valign="middle" /></a> </td><td align="center" valign="middle">
   <a href="https://arrow.apache.org/docs/python/index.html" target="_blank"><img src="https://arrow.apache.org/img/arrow-logo_horizontal_black-txt_white-bg.png" width="100" valign="middle" /></a> </td></tr><tr><td align="center" valign="middle">
   <a href="https://scipy.org/" target="_blank"><img src="https://www.fullstackpython.com/img/logos/scipy.png" width="95" valign="middle" /></a> </td><td align="center" valign="middle">

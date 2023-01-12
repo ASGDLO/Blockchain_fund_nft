@@ -37,8 +37,8 @@ Having traded over $5 million dollar in 6 years, I was trying to figure out the 
 
 For questions and support please use the official [Discord channel](https://discord.com/invite/BZdbEKbgDj). The issue list of this repo is **exclusively** for bug reports and feature requests.
 
-#### how is it work 
-##PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?usp=sharing
+## how is it work 
+PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?usp=sharing
 
 <table style="text-align:center;"><tr><td>
 

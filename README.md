@@ -37,11 +37,11 @@ Having traded over $5 million dollar in 6 years, I was trying to figure out the 
 
 For questions and support please use the official [Discord channel](https://discord.com/invite/BZdbEKbgDj). The issue list of this repo is **exclusively** for bug reports and feature requests.
 
-#### Trading History 2016 ~ 2022
+#### how is it work
 
 <table style="text-align:center;"><tr><td>
 
-<a  target="_blank"><img src="https://cdn.discordapp.com/attachments/794857815709450242/1051310164453638194/image.png" width="200" valign="middle" /></a></td>
+<a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170488847249469/image.png?width=838&height=630" width="200" valign="middle" /></a></td>
 <td> 
 <a  target="_blank"><img src="https://cdn.discordapp.com/attachments/794857815709450242/1051337356180983949/image.png" width="140" valign="middle" /></a></td>
 <td>

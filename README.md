@@ -77,7 +77,7 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
   <a href="https://scipy.org/" target="_blank"><img src="https://miro.medium.com/max/800/1*ulCspc56K_swYE1uuel_TA.png" width="95" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://nautilustrader.io/" target="_blank"><img src="https://nautilustrader.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnautilus-logo-sm.7c6c9055.png&w=1920&q=75" width="140" valign="middle" /></a></td>
 <td align="center" valign="middle">
-<a href="https://scikit-optimize.github.io/stable/" target="_blank"><img src="https://scikit-optimize.github.io/stable/_static/logo.png" width="71" valign="middle" /></a></td><td align="center" valign="middle">
+<a href="https://scikit-optimize.github.io/stable/" target="_blank"><img src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png" width="71" valign="middle" /></a></td><td align="center" valign="middle">
 <a href="https://plotly.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly_logo_for_digital_final_%286%29.png/1200px-Plotly_logo_for_digital_final_%286%29.png" width="100" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://jupyter.org/" target="_blank"><img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" width="75" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/ccxt/ccxt" target="_blank"><img src="https://user-images.githubusercontent.com/1294454/112665445-2008ec80-8e6c-11eb-9647-623a347ddade.png" width="120" valign="middle" /></a></td></tr><tr><td align="center" valign="middle">

@@ -78,7 +78,7 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 <a href="https://github.com/ccxt/ccxt" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/1200px-Solidity_logo.svg.png" width="70" valign="middle" /></a></td></tr><tr><td align="center" valign="middle">
 <a href="https://docs.tokensets.com/" target="_blank"><img src="https://images.squarespace-cdn.com/content/v1/5dc59d3f6301105b02894f5f/1580228735630-4AH0H4LTN0UOEJ4UIRIG/Aave+Ghost+banner.png" width="120" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/man-c/pycoingecko" target="_blank"><img src="https://static.coingecko.com/s/coingecko-branding-guide-8447de673439420efa0ab1e0e03a1f8b0137270fbc9c0b7c086ee284bd417fa1.png" width="80" valign="middle" /></a> </td><td align="center" valign="middle">
-<a  target="_blank"><img src="https://uploads-ssl.webflow.com/619811f15cf1e46af063c233/620dc6482e585bbdb5feff64_aws-logo.png" width="120" valign="middle" /></a></td><td align="center" valign="middle"><a href="https://arbitrum.io/" target="_blank"><img src="https://i0.wp.com/www.australtech.net/wp-" width="120" valign="middle" /></a></td>
+<a  target="_blank"><img src="https://uploads-ssl.webflow.com/619811f15cf1e46af063c233/620dc6482e585bbdb5feff64_aws-logo.png" width="120" valign="middle" /></a></td><td align="center" valign="middle"><a href="https://arbitrum.io/" target="_blank"><img src="https://uploads-ssl.webflow.com/62f34c32e8660c273054c17c/62fb88dbd2721c64b22677c0_arbitrum%20logo.png" width="120" valign="middle" /></a></td>
   </td>
  
   </tr></table>

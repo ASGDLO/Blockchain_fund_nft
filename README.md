@@ -21,11 +21,6 @@
 What is the most efficient way to sell crypto funds?
 There are too many challenges to selling funds to people. Why not use NFTs and APIs to solve this problem?</p>
 
-## Philosophy
-
-<p>Money is not just purchasing power or a position in life. This can create more value in the world by helping people achieve the right goals. </p>
-
-Having traded over $5 million dollar in 6 years, I was trying to figure out the best way to make money in the market. Humans cannot always make the right decisions and read tons of data. Quantitative trading is the best way to make good decisions in the market.
 
 ## Getting started
 

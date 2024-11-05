@@ -35,22 +35,6 @@ For questions and support please use the official [Discord channel](https://disc
 ## how is it work 
 PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?usp=sharing
 
-<table style="text-align:center;"><tr><td>
-
-<a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170488847249469/image.png?width=838&height=630" width="200" valign="middle" /></a></td>
-<td> 
-<a  target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170545923326023/image.png?width=850&height=630" width="140" valign="middle" /></a></td>
-<td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170581667192872/image.png?width=850&height=630" width="200" valign="middle" /></a></td>
-<td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170681445503046/image.png?width=870&height=630" width="185" valign="middle" /></a></td>
-<td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170727196962867/image.png?width=870&height=630" width="185" valign="middle" /></a></td>
-<td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170777759301702/image.png?width=870&height=630" width="185" valign="middle" /></a></td>
-<td>
-<a target="_blank"><img src="https://media.discordapp.net/attachments/1034436378857062532/1057170829747691550/image.png?width=895&height=630" width="185" valign="middle" /></a></td>
-</table>
 
 #### Related Project
 <table style="text-align:center;"><tr>

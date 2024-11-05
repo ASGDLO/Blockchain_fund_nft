@@ -47,10 +47,10 @@ PDF file https://drive.google.com/file/d/1uNDfPnoyjwivB1dNr6WrDnsHdN7xUofp/view?
 #### Tool
 
 <table><tr><td align="center" valign="middle">
-<a href="https://www.sqlalchemy.org/" target="_blank"><img src="https://www.netnode.ch/sites/default/files/2022-08/nextjs.png" width="110" valign="middle" /> </a></td><td align="center" valign="middle">
+
 <a href="http://mrjbq7.github.io/ta-lib/" target="_blank"><img src="https://avatars.githubusercontent.com/u/52467369?s=200&v=4" width="110" valign="middle" /></a> </td><td align="center" valign="middle">
 <a href="https://github.com/tiangolo/fastapi" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" width="112" valign="middle" /></a>  </td><td align="center" valign="middle">
-<a href="https://github.com/encode/uvicorn" target="_blank"><img src="https://moonbeam.network/wp-content/uploads/2021/06/openzeppelin-500.png" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
+<a href="https://github.com/encode/uvicorn" target="_blank"><img src="[https://moonbeam.network/wp-content/uploads/2021/06/openzeppelin-500.png](https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png)" width="70" valign="middle" /></a>  </td><td align="center" valign="middle">
   <a href="https://pyjwt.readthedocs.io/en/stable/faq.html" target="_blank"><img src="https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/263/original/Axios_logo_-_RGB_-_clear_space.png?1580309119" width="90" valign="middle" /></a> </td><td align="center" valign="middle">
   <a href="https://arrow.apache.org/docs/python/index.html" target="_blank"><img src="https://miro.medium.com/max/1400/1*HEVz67GINyCZckRkeEidYw.png" width="100" valign="middle" /></a> </td></tr><tr><td align="center" valign="middle">
   <a href="https://scipy.org/" target="_blank"><img src="https://miro.medium.com/max/800/1*ulCspc56K_swYE1uuel_TA.png" width="95" valign="middle" /></a> </td><td align="center" valign="middle">

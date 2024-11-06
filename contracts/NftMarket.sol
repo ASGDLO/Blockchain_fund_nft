@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract NftMarket is ERC721URIStorage, Ownable {
   using Counters for Counters.Counter;
-
+ 
   struct NftItem {
     uint tokenId;
     uint price;

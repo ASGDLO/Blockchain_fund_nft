@@ -4,7 +4,7 @@
     "next/core-web-vitals" ,
     "plugin:react-hooks/recommended"
   ]
-  ,
+  , 
   "plugins": [
     // ...
     "react-hooks"

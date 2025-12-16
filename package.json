@@ -21,7 +21,7 @@
     "@types/react-pdf": "^5.7.2",
     "@usedapp/core": "^1.1.2",
     "antd": "^4.19.5",
-    "axios": "^0.26.1",
+    "axios": "^0.30.2",
     "ethereumjs-util": "^7.1.4",
     "ethers": "^5.6.2",
     "form-data": "^4.0.0",
